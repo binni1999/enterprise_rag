@@ -1,0 +1,61 @@
+Kubernetes questions for your RAG application
+1. Kubernetes architecture and components
+1. What is the role of the Kubernetes Control Plane, and what are its main components?
+2. What is the difference between the API Server, Scheduler, and Controller Manager?
+3. What is the role of etcd in a Kubernetes cluster?
+4. What is the difference between a StatefulSet and a Deployment?
+5. What is a DaemonSet, and when would you use it?
+2. Networking and service discovery
+6. What is the difference between a ClusterIP, NodePort, and LoadBalancer Service?
+7. What is an Ingress in Kubernetes, and how is it different from a Service?
+8. How does DNS-based service discovery work inside a Kubernetes cluster?
+9. What is a NetworkPolicy, and how does it control communication between Pods?
+10. How does Kubernetes networking allow Pods on different nodes to communicate?
+3. Configuration, storage, and security
+11. What is the difference between a PersistentVolume (PV) and a PersistentVolumeClaim (PVC)?
+12. What is a StorageClass, and how does dynamic volume provisioning work?
+13. What are Kubernetes namespaces, and why are they useful?
+14. How do Kubernetes RBAC roles and role bindings control access to cluster resources?
+15. What is a ServiceAccount, and how is it different from a regular user account?
+4. Scaling, scheduling, and troubleshooting
+16. What is the difference between the Horizontal Pod Autoscaler (HPA) and Vertical Pod Autoscaler (VPA)?
+17. How does the Kubernetes Scheduler decide which node should run a Pod?
+18. What causes a Pod to enter CrashLoopBackOff, and how would you troubleshoot it?
+19. What is the difference between readiness, liveness, and startup probes?
+20. How do resource requests and limits affect Pod scheduling and runtime behavior?
+
+
+
+What is the difference between a Pod and a Deployment?
+How does a Kubernetes Service expose an application?
+What happens when a Pod crashes?
+How does Horizontal Pod Autoscaling work?
+Explain the difference between ConfigMaps and Secrets.
+
+Explain the architecture of an Intel processor.
+What is the difference between CPU cores and threads?
+How do processor caches improve performance?
+Compare Intel processor generations covered in the documentation.
+
+Explain the TCP three-way handshake.
+What is the difference between TCP and UDP?
+How does DNS resolution work?
+What is the difference between a router and a switch?
+How does TLS secure network communication?
+
+Once these documents have been indexed in Qdrant, you can ask questions like the following.
+Question type	Example question
+Fact extraction	What are the key requirements mentioned in the document?
+Summarization	Summarize this document in 10 bullet points.
+Explanation	Explain the main concept in simple language.
+Comparison	Compare the two approaches described in the documentation.
+Troubleshooting	What solution does the documentation recommend for this error?
+Step-by-step guidance	Explain the procedure described in the document step by step.
+Specific lookup	What does the documentation say about a particular configuration or feature?
+Gap checking	Does the indexed documentation contain enough information to answer this question?
+These are examples of question formats. The actual answers depend on the content of your indexed files.
+
+What is Kubernetes?
+What are its main components?
+Explain the difference between the first two components you mentioned.
+

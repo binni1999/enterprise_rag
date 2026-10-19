@@ -1,0 +1,12 @@
+1.setup the dependencies 
+2.in the venv file add all the keys 
+3.add Quadrant vector db key and endpoint 
+4. create a config file 
+=> create a app folder 
+=> add the config file 
+
+for logfire 
+
+uv run logfire auth
+
+uvicorn app.main:app --reload --port 8000
